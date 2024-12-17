@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import Button from "./components/Button";
 import Info from "./components/Info";
 import Contract from "./components/Contract";
-import { providerUrl } from "./lib.tsx";
+import { isTestnet, providerUrl } from "./lib.tsx";
 
 function App() {
   const { connect } = useConnectUI();
@@ -47,14 +47,20 @@ function App() {
                     <section className="flex h-full flex-col justify-center space-y-6 px-4 py-8">
                       <p className="text-center">
                         You are connected to the wrong network. Please switch to{" "}
-                        <a
-                          href={providerUrl}
-                          target="_blank"
-                          rel="noreferrer"
-                          className="text-green-500/80 transition-colors hover:text-green-500"
-                        >
-                          {providerUrl}
-                        </a>
+                        {isTestnet ? (
+                          <span className="text-green-500/80 transition-colors hover:text-green-500">
+                            Fuel Sepolia Testnet
+                          </span>
+                        ) : (
+                          <a
+                            href={providerUrl}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="text-green-500/80 transition-colors hover:text-green-500"
+                          >
+                            {providerUrl}
+                          </a>
+                        )}
                         &nbsp;in your wallet.
                       </p>
                     </section>

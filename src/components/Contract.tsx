@@ -10,7 +10,7 @@ import { bn, BN, createAssetId, ZeroBytes32 } from "fuels";
 
 export default function Contract() {
   const { disconnect } = useDisconnect();
-
+  
   const {
     errorNotification,
     transactionSubmitNotification,
