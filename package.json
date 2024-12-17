@@ -8,9 +8,7 @@
     "dev": "vite",
     "build": "npm run prebuild && tsc -b && vite build",
     "lint": "eslint .",
-    "fuels:dev": "fuels dev",
-    "test": "vitest",
-    "test:ui": "./test/ui/test-ui.sh"
+    "fuels:dev": "fuels dev"
   },
   "dependencies": {
     "@fuels/connectors": "^0.27.1",

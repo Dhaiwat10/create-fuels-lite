@@ -1,20 +1,20 @@
-import { providerUrl, playgroundUrl } from "../lib.tsx";
+import { providerUrl } from "../lib.tsx";
 
 export default function Info() {
   return (
     <div id="text" className="col-span-2 px-4 py-4">
       <h1 className="pb-1 pt-0 text-3xl font-medium">
-        Welcome to Fuel
+        Fuel SRC20 Minter
       </h1>
       <p>
-        This Vite + React template was bootstrapped with the{" "}
+        This dapp was bootstrapped with the{" "}
         <a
-          href="https://docs.fuel.network/docs/fuels-ts/fuels-cli/#getting-started"
+          href="https://docs.fuel.network/docs/fuels-ts/creating-a-fuel-dapp/"
           target="_blank"
           className="text-green-500/80 transition-colors hover:text-green-500"
           rel="noreferrer"
         >
-          Fuels CLI
+          create fuels CLI
         </a>
       </p>
       <p className="pt-6">
@@ -37,12 +37,12 @@ export default function Info() {
         Fuel Docs
       </a>
       <a
-        href={playgroundUrl}
+        href="https://github.com/dhaiwat10/fuel-src20-minter"
         target="_blank"
-        className="inline-block text-green-500/80 transition-colors hover:text-green-500 w-full"
+        className="inline-block mt-2 text-green-500/80 transition-colors hover:text-green-500 w-full"
         rel="noreferrer"
       >
-        GraphQL Playground
+        Repo Link
       </a>
     </div>
   );
