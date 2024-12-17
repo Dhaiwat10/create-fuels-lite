@@ -1,6 +1,10 @@
-This is a [Vite](https://vitejs.dev/) project bootstrapped with [`create-fuels`](https://github.com/FuelLabs/fuels-ts/tree/master/packages/create-fuels).
+# Fuel SRC20 Minter
 
-## Getting Started
+This is an example Fuel dapp that mints an SRC20 token to the user's wallet.
+
+Testnet contract ID: `0x3c8ff9eb5ea5ab033e44d6d90795b12b5544498b08612c44458264e83a0bef01`
+
+## Run Locally
 
 1. Start the Fuel development server. This server will start a local Fuel node and provide hot-reloading for your smart contracts.
 
