@@ -1,5 +1,5 @@
 {
-  "name": "template-vite",
+  "name": "create-fuels-lite",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -27,7 +27,6 @@
     "@vitejs/plugin-react": "^4.3.3",
     "@eslint/js": "^9.10.0",
     "@tanstack/router-plugin": "^1.58.12",
-    "@playwright/test": "^1.47.2",
     "@types/react": "^18.3.11",
     "@types/react-dom": "^18.3",
     "autoprefixer": "^10.4.20",
@@ -39,7 +38,6 @@
     "tailwindcss": "^3.4.14",
     "typescript": "~5.6.3",
     "typescript-eslint": "^8.8.0",
-    "vite": "^5.4.9",
-    "vitest": "~2.0.5"
+    "vite": "^5.4.9"
   }
 }

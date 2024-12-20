@@ -1,4 +1,4 @@
-# Fuel SRC20 Minter
+# `create-fuels-lite`
 
 This is an example Fuel dapp that mints an SRC20 token to the user's wallet.
 
